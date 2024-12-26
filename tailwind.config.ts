@@ -13,6 +13,18 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    screens: {
+      mobile: "375px", // Your mobile breakpoint
+      tablet: "768px", // Your tablet breakpoint
+      desktop: "1440px", // Your desktop breakpoint
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "16px", // Mobile padding
+        tablet: "32px", // Tablet and up padding
+      },
+    },
   },
   plugins: [],
 } satisfies Config;
